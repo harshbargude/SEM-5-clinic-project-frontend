@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins", system-ui;
+}
+html,
+body {
+    height:100%;
+    width:100%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.patientBox_h{
+    background-color: #ffffffe3;
+    padding: 10vh 2vw;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.214);
+}
+.illnessH2{
+    color: black;
+    font-size   : 2vh;
+    text-align:left;
+    font-weight: normal;
+}
+.patientBox_h{
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    align-items: center;
+}
+h3{
+    font-size: 3vh;
+}
+h2{
+}
+img{
+    width: 4vh;
+    height: 4vh;
+}
+.P_img{
+    content: "";
+    background-color: #00B2FF;
+    padding: 1vh 1.6vh;
+    border-radius: 50%;
+}
+.EditButton{
+    all: unset;
+    padding: .3rem 1rem;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-size: 2vh;
+    color: #fff;
+    background-color: #14a3dc;
+}
+.EditButton:hover{
+    /* border-radius: 2px; */
+    color: #fff;
+    background-color: rgb(6, 131, 185);
+    transform: scale(1.02);
+    box-shadow: 0px 0px 7px 0px #14a3dc7d;
+}

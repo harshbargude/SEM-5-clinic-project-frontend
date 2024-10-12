@@ -1,0 +1,28 @@
+.ClinicCard {
+    /* background-color: #f5fffad9; */
+    /* border: 2px solid rgb(20, 70, 220); */
+}
+
+.liOfClinics {
+    padding: 0;
+    margin: 0;
+    border: 3px solid rgba(234, 12, 12, 0.728)(128, 128, 128, 0.53)(128, 128, 128, 0.53);
+    border-radius: 0;
+    margin: 3px;
+    background-color: beige;
+}
+.ClinicCard ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* width: 20rem; */
+}
+.ClinicCard ul li:nth-child(1) {
+    margin-top: 0;
+}
+.OfList{
+    margin: 5px;
+}
+.span_ClinicName{
+    color: brown;
+}

@@ -1,0 +1,36 @@
+.add-doctor-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.add-doctor-button:hover {
+    background-color: #007bb5;
+}
+
+.add-doctor-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.add-doctor-form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.add-doctor-form button {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.doctor-list{
+    display: block !important;
+}

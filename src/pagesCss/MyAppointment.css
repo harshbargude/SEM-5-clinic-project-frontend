@@ -1,0 +1,29 @@
+/* .appointmentList_h{
+    padding: 23px;
+    display: flex;
+    gap: 1rem;
+} */
+.appointmentTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .appointmentTable th,
+  .appointmentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .appointmentTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .appointmentTable tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .appointmentList_h td {
+    text-align: left;
+  }
+  

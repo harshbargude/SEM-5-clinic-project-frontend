@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    /* gap: 2rem; */
+    list-style: none;
+    text-decoration: none;
+    /* padding: 2rem 1rem; */
+}
+li{
+    all: unset;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    /* border-radius :18px; */
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    margin: 0rem 0.3rem;
+    /* background-color: #f51616; */
+}
+li a {
+    all: unset;
+    display: block;
+    padding: 1rem;
+    /* margin: 0 auto; */
+}
+.topSection{
+    height: 4rem;
+    width: 100%;
+    background-color:crimson;
+}
+.SectionContent-h{
+    display: flex;
+    width: 100%;
+}
+.SectionDivContent-h{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+}
+.OneLeft{
+    /* height: 100vmin; */
+    width: 20rem;
+    border-right: 2px solid crimson;
+}
+.OneRight{
+    box-sizing: border-box;
+    /* siz */
+    width:100%;
+}
+.Container_Right {
+    position: relative;
+    display: block;
+    margin: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0.5rem;
+    background-position: center;
+    border-radius: 18px;
+    box-shadow: 1px 1px 6px 0px rgba(166, 12, 12, 0.413);
+    overflow: hidden; /* Make sure content doesn't spill out */
+}
+
+.Container_Right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../public/images/fractureee.png") no-repeat center center;
+    background-size: cover;
+    opacity: 0.5; /* Adjust the opacity for the background */
+    border-radius: 18px; /* Match the border-radius */
+    z-index: -1; /* Keep it behind the content */
+}
+
+
+.OneLeft nav ul li:hover{
+    /* box-shadow: inset 1px 1px 6px 0px gray; */
+    transform: translateX(2px);
+    transition: 0.4s;
+    border-left: 5px solid #03a9f4;
+}
+.hoverI-H{
+    display: flex;
+}   
+
+ul li:nth-child(1){
+    margin-top: 2rem;   
+}
+.Nav_iconDiv span{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 25px;
+}
+
+.logbtn_hh{
+    all: unset;
+    height: 60px;
+}
